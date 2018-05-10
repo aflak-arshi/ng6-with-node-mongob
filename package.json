@@ -1,0 +1,19 @@
+{
+  "name": "ng6-with-node-mongob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aflak-arshi/ng6-with-node-mongob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aflak-arshi/ng6-with-node-mongob/issues"
+  },
+  "homepage": "https://github.com/aflak-arshi/ng6-with-node-mongob#readme"
+}
