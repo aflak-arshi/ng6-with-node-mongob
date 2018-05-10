@@ -83,4 +83,17 @@ exports.user_login = (req, res, next) => {
     });
 };
 
-exports.user_delete = (req, res, next) => {};
+exports.user_delete = (req, res, next) => {
+  User.remove({ _id: req.params.userid })
+    .exec()
+    .then(result => {
+      return res.status(201).json({
+        message: "User deleted"
+      });
+    })
+    .catch(err => {
+      return res.status(500).json({
+        error: err
+      });
+    });
+};
